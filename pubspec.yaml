@@ -1,0 +1,82 @@
+name: dwarikesh
+description: A new Flutter application.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+version: 1.0.11+11
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  firebase_auth:
+  firebase_core:
+  firebase_analytics: "^8.2.0"
+  firebase_messaging:
+  firebase_core_platform_interface: 4.5.1
+  get: 4.1.4
+  http: ^0.13.1 #API
+  flutter_html: ^3.0.0-alpha.2 #html format
+  shared_preferences: ^2.0.4 #store data
+  carousel_slider: ^4.0.0 # adv scroll view
+  hidden_drawer_menu: ^3.0.0 #side nav bar
+  url_launcher: ^6.0.0 # open phone Dail pad,message ,chrome,etc
+  image_picker: ^0.8.0+1 #Camera
+  flutter_image_compress: ^1.0.0
+  intl: ^0.17.0 # Current date & time
+  device_info: ^2.0.0 #Device Information Data
+  flutter_svg: ^0.22.0 # Show Svg Images
+  fl_chart: ^0.45.1 # chart,graph
+  flutter_calendar_carousel: ^2.0.1 #calender
+  translator: ^0.1.7
+  geolocator: ^8.0.5
+  permission_handler: ^8.1.0
+  path_provider: ^2.0.2
+  csv: ^5.0.0
+  flutter_screenutil: ^5.0.0+2
+  webview_flutter: ^2.0.12
+  package_info: ^2.0.2
+  photo_view: ^0.13.0
+  flutter_launcher_icons:
+  flutter_local_notifications: ^12.0.3
+  flutter_typeahead: ^4.1.1
+  autocomplete_textfield: ^2.0.1
+
+flutter_icons:
+  image_path: "assets/images/d_logo.jpg"
+  android: true
+  ios: true
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/svg_images/
+  fonts:
+    - family: Inter
+      fonts:
+        - asset: assets/fonts/Inter-ExtraLight.ttf
+          weight: 200
+        - asset: assets/fonts/Inter-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Inter-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Inter-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Inter-Bold.ttf
+          weight: 700
